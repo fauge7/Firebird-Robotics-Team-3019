@@ -9,13 +9,13 @@ public class DriveArcade extends Command {
 	@Override
 	protected void initialize() {
 		// TODO Auto-generated method stub
-		requires(Robot.drivetrain);
+		requires(Robot.driveTrain);
 	}
 
 	@Override
 	protected void execute() {
 		// TODO Auto-generated method stub
-		
+		Robot.driveTrain.arcadeDrive();
 	}
 
 	@Override

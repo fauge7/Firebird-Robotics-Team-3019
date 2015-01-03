@@ -12,8 +12,8 @@ public class OI {
     // One type of button is a joystick button which is any button on a joystick.
     // You create one by telling it which joystick it's on and which button
     // number it is.
-     Joystick drive = new Joystick(1);
-     Joystick arm = new Joystick(2);
+     public Joystick drive = new Joystick(1);
+     public Joystick arm = new Joystick(2);
     // Button button = new JoystickButton(stick, buttonNumber);
     
     // There are a few additional built in buttons you can use. Additionally,
